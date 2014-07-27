@@ -10,6 +10,7 @@
   - [Raspberry Pi系统上的C语言源代码][1]
   - [Android APP源代码][2]
   - [PHP源代码][3]
+  - [项目主页][6]
 
 本文想法由`亓根火柴`发表在CSDN上的[《用树莓派通过Java实现远程控制电灯》][4]所启发，在此感谢原作者，以下是部分参考：
 
@@ -26,6 +27,7 @@ This project is consist of `Raspberry Pi Rev2.0 UK Board` running [Raspbian] (ba
   - [C programming languages source code on Raspberry Pi][1]
   - [Android APP source code][2]
   - [PHP source code][3]
+  - [Project Homepage][6]
 
 This article is inspired by the article [《用树莓派通过Java实现远程控制电灯》][4] posted on [CSDN Blog][5] by `亓根火柴`,thanks for the author,some referances are as follows:
 
@@ -54,7 +56,7 @@ We have access PHP webpages by using Android APP,these websites `create or modif
 
 ##Revision
 **0.1 Alpha [2014-07-27]**
-  - Confirm Thought
+  - Confirm thought
   - `create project` from inspired ideas
   - `Create readme`
 
@@ -121,7 +123,7 @@ This article uses Markdown language, and using [Dillinger], a online markdown ed
 关于我
 --
 
-张幸Angeiv
+张幸 (Angeiv)
 
 个人主页 http://zhangxing.tk/blog
 
@@ -163,3 +165,4 @@ E-mail  447407567#qq.com (replace # with @)
 [4]:http://blog.csdn.net/qigenhuochai/article/details/17661845
 [5]:http://blog.csdn.net
 [Dillinger]:http://dillinger.io/
+[6]:https://github.com/angeiv/SmartHouse
