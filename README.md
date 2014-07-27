@@ -16,7 +16,7 @@
 > 我们用[Yeelink]的手机客户端（浏览器也行）去改变服务上设备的状态（0/1），然后让树莓派检测该设备上的状态，最后根据获取到的状态控制继电器。
 
 
-**启发**：我们可以用Android APP访问由树莓派搭建的PHP网页，对应的网页在树莓派系统中`创建或者修改`文件，`系统每隔几秒检测下文件的内容`，以此来达到模拟Yeelink的按钮操作，达到控制电器的目的。
+**启发：**我们可以用Android APP访问由树莓派搭建的PHP网页，对应的网页在树莓派系统中`创建或者修改`文件，`系统每隔几秒检测下文件的内容`，以此来达到模拟Yeelink的按钮操作，达到控制电器的目的。
 
 ##Project Explanation
 This project is consist of `Raspberry Pi Rev2.0 UK Board` running [Raspbian] (based on Debian),php on it and using Android APP to control it.
@@ -30,9 +30,10 @@ This project is consist of `Raspberry Pi Rev2.0 UK Board` running [Raspbian] (ba
 This article is inspired by the article [《用树莓派通过Java实现远程控制电灯》][4] posted on [CSDN Blog][5] by `亓根火柴`,thanks for the author,some referances are as follows:
 
 > 我们用[Yeelink]的手机客户端（浏览器也行）去改变服务上设备的状态（0/1），然后让树莓派检测该设备上的状态，最后根据获取到的状态控制继电器。
-(We use [Yeelink] mobile client (browser too) to change the status of the service equipment (0/1), and then let the raspberry pie detect the status of the device, according to the acquired control relay final state. --by google)
+(We use [Yeelink] mobile client (browser also) to change the status of the service equipment (0/1), and then let the raspberry pi detect the status of the device, according to the acquired state to control appliances. --translated by google)
 
-**Inspired ideas:**We have access PHP webpages by using Android APP,these websites `create or modify` files on Raspberry Pi,`system detects these files every few seconds`,to simulate the button on Yeelink,in order to control appliances.
+**Inspired ideas:**
+We have access PHP webpages by using Android APP,these websites `create or modify` files on Raspberry Pi,`system detects these files every few seconds`,to simulate the button on Yeelink,in order to control appliances.
 
 ---
 
@@ -70,39 +71,37 @@ This article is inspired by the article [《用树莓派通过Java实现远程�
 以下列举了本项目使用到的`硬件`、`软件`等:
 
 * 硬件部分
-      - 树莓派   一个小型控制中心，运行Linux系统
-      - 手机     运行有Android系统带有Wi-Fi的手机
-      - 继电器   控制电路开关
-      - 用电器   受控电器
+      - 树莓派   - 一个小型控制中心，运行Linux系统
+      - 手机     - 运行有Android系统带有Wi-Fi的手机
+      - 继电器   - 控制电路开关
+      - 用电器   - 受控电器
 * 软件部分
-      - Android  安卓系统
-      - PHP      PHP网页开发
-      - Raspbian Linux系统
-      - ADT      安卓开发工具，包含Eclipse + ADT 插件,Android SDK 工具,Android 平台工具
-      - JDK      Java开发环境
+      - Android  - 安卓系统
+      - PHP      - PHP网页开发
+      - Raspbian - Linux系统
+      - ADT      - 安卓开发工具，包含Eclipse + ADT 插件,Android SDK 工具,Android 平台工具
+      - JDK      - Java开发环境
 
 ##Material
 
 This project contains `hardware`,`software` are as follows:
 
 * Hardware
-      - Raspberry Pi A small control center,running Linux operating system
-      - Phone        A phone running Android operating system with Wi-Fi
-      - Relays       Control power switch
-      - Appliances   Control appliances
+      - Raspberry Pi - A small control center,running Linux operating system
+      - Phone        - A phone running Android operating system with Wi-Fi
+      - Relays       - Control power switch
+      - Appliances   - Control appliances
 * Software
-      - Android  Android Operating System
-      - PHP      PHP website
-      - Raspbian Linux Operating System
-      - ADT      Android Developer Tools,including Eclipse + ADT plugin,Android SDK Tools,Android Platform-tools
+      - Android  - Android Operating System
+      - PHP      - PHP website
+      - Raspbian - Linux Operating System
+      - ADT      - Android Developer Tools,including Eclipse + ADT plugin,Android SDK Tools,Android Platform-tools
 
 ---
 许可证
 --
 
 GPL v2
-
-
 
 ##License
 
