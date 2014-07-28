@@ -20,7 +20,7 @@
 **启发：**我们可以用Android APP访问由树莓派搭建的PHP网页，对应的网页在树莓派系统中`创建或者修改`文件，`系统每隔几秒检测下文件的内容`，以此来达到模拟Yeelink的按钮操作，达到控制电器的目的。
 
 ##Project Explanation
-This project is consist of `Raspberry Pi Rev2.0 UK Board` running [Raspbian] (based on Debian),php on it and using Android APP to control it.
+This project is consist of `Raspberry Pi Rev2.0 UK Board` running [Raspbian] \(based on Debian\),php on it and using Android APP to control it.
 
 **Project Link**
 
